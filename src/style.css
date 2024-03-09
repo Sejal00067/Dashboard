@@ -1,0 +1,94 @@
+/* styles.css */
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="file"],
+button {
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #0056b3;
+}
+
+.file-upload-container {
+    margin-top: 20px;
+}
+
+.file-upload-container label {
+    display: block;
+}
+
+.file-upload-container input[type="file"] {
+    display: none;
+}
+
+.file-upload-container .file-upload-label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.file-upload-container .file-upload-label:hover {
+    background-color: #0056b3;
+}
+
+.names-container {
+    margin-top: 20px;
+}
+
+.names-container p {
+    margin-bottom: 5px;
+}
+
+.logout-button {
+    display: block;
+    margin-top: 20px;
+    padding: 8px 12px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
